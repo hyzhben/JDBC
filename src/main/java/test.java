@@ -14,6 +14,7 @@ public class test {
             Connection connection = DriverManager.getConnection(url,user,password);
             System.out.println(connection);
             System.out.println("创建连接成功");
+            System.out.println("Hello");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
